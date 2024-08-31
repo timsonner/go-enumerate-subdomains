@@ -15,8 +15,9 @@ func main() {
 	}
 
 	domain := os.Args[1]
+	wordlist := os.Args[2]
 
-	file, err := os.Open("subdomains.txt")
+	file, err := os.Open(wordlist)
 	if err != nil {
 		fmt.Println("Error opening file:", err)
 		return
