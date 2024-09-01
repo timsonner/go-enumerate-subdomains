@@ -1,6 +1,6 @@
-# Enumerate subdomains with GoLang, wordlists and Goroutines. As always, fast AF boi.  
+# Enumerate subdomains with GoLang, wordlists and Goroutines.  
 
-One version uses HTTP requests, the other uses DNS. Pick your poison...  
+Enumerate by using HTTP or DNS requests or querying crt.sh. Pick your poison...  
 
 usage:  
 ```  

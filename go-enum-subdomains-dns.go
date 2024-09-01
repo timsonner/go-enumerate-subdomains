@@ -10,7 +10,7 @@ import (
 
 func main() {
 	if len(os.Args) < 2 {
-		fmt.Println("Usage: go run main.go <domain> <wordlist>")
+		fmt.Println("Usage: go run <script> <domain> <wordlist>")
 		return
 	}
 
